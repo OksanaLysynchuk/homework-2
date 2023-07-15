@@ -1,0 +1,230 @@
+:root{
+    color: var();
+    background-color: var();
+}
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(#FFFFFF);
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(#4d5ae5);
+}
+.link{
+    text-decoration: none;
+}
+.span{
+    color: var(#2e2f42);
+}
+.list{
+    list-style: none;
+}
+.pages{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(#2e2f42);
+}
+.link{
+    text-decoration:none;
+}
+.link:hover{
+    color: #404bbf;
+}
+.link:focus{
+    color: #404bbf;
+}
+.address{
+    font-style: normal;
+}
+.list{
+    list-style: none;
+}
+.contacts{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(#434455);
+}
+.link{
+    text-decoration:none;
+}
+.link:hover{
+    color: #404bbf;
+}
+.link:focus{
+    color: #404bbf;
+}
+.section{
+    background-color: var(#2e2f42);
+}
+.title-1{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #404BBF;
+}
+.button:focus{
+    background-color: #404BBF;
+}
+.list{
+    list-style: none;
+}
+.values{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(#2e2f42);
+}
+.text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(#434455);
+}
+.title-2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(#2e2f42);
+}
+.list{
+    list-style: none;
+}
+.section-2{
+    background-color: #F4F4FD
+}
+.title-2{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(#2e2f42);
+}
+.list{
+    list-style: none;
+}
+.team{
+    background-color: #FFFFFF;
+}
+.name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(#2e2f42);
+}
+.position{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(#434455);
+}
+.footer{
+    background-color: var(#2e2f42);
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(#4d5ae5);
+}
+.link{
+    text-decoration: none;
+}
+.span{
+    color: var(#f4f4fd);
+}
+.footer-text{
+    line-height: 1.5;
+    color: var(#F4F4FD);
+    letter-spacing: 0.02em
+}
+.dep-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(#4d5ae5);
+    background-color: var(#F4F4FD);
+    cursor: pointer;
+}
+.dep-button:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.dep-button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration:none;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(#2e2f42);
+}
+.department{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(#434455);
+}
+.footer{
+    background-color: var(#2e2f42);
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(#4d5ae5);
+}
+.link{
+    text-decoration: none;
+}
+.span{
+    color: var(#f4f4fd);
+}
+.footer-text{
+    line-height: 1.5;
+    color: var(#F4F4FD);
+    letter-spacing: 0.02em
+}
