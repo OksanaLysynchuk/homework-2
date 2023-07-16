@@ -22,13 +22,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(#4d5ae5);
+  color: var(--primary-accent-color);
 }
 .link {
   text-decoration: none;
 }
 .span {
-  color: var(#2e2f42);
+  color: var(--background-color);
 }
 .list {
   list-style: none;
@@ -38,7 +38,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(#2e2f42);
+  color: var(--background-color);
 }
 .link {
   text-decoration: none;
@@ -59,7 +59,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(#434455);
+  color: var(--text-color);
 }
 .link {
   text-decoration: none;
@@ -71,9 +71,9 @@ body {
   color: #404bbf;
 }
 .section {
-  background-color: var(#2e2f42);
+  background-color: var(--background-color);
 }
-.title-1 {
+.main-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -104,35 +104,35 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(#2e2f42);
+  color: var(--background-color);
 }
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(#434455);
+  color: var(--text-color);
 }
-.title-2 {
+.title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(#2e2f42);
+  color: var(--background-color);
 }
 .list {
   list-style: none;
 }
-.section-2 {
+.our-team {
   background-color: #f4f4fd;
 }
-.title-2 {
+.title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(#2e2f42);
+  color: var(--background-color);
 }
 .list {
   list-style: none;
@@ -145,16 +145,16 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(#2e2f42);
+  color: var(--background-color);
 }
 .position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(#434455);
+  color: var(--text-color);
 }
 .footer {
-  background-color: var(#2e2f42);
+  background-color: var(--background-color);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -169,11 +169,11 @@ body {
   text-decoration: none;
 }
 .span {
-  color: var(#f4f4fd);
+  color: var(--footer-text-color);
 }
 .footer-text {
   line-height: 1.5;
-  color: var(#f4f4fd);
+  color: var(--footer-text-color);
   letter-spacing: 0.02em;
 }
 .dep-button {
@@ -183,7 +183,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-accent-color);
-  background-color: var(#f4f4fd);
+  background-color: var(--footer-text-color);
   cursor: pointer;
 }
 .dep-button:hover {
@@ -205,16 +205,16 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(#2e2f42);
+  color: var(--background-color);
 }
 .department {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(#434455);
+  color: var(--text-color);
 }
 .footer {
-  background-color: var(#2e2f42);
+  background-color: var(--background-color);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -229,10 +229,10 @@ body {
   text-decoration: none;
 }
 .span {
-  color: var(#f4f4fd);
+  color: var(--footer-text-color);
 }
 .footer-text {
   line-height: 1.5;
-  color: var(#f4f4fd);
+  color: var(--footer-text-color);
   letter-spacing: 0.02em;
 }
