@@ -22,13 +22,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-accent-color);
+  color: var(#4d5ae5);
 }
 .link {
   text-decoration: none;
 }
 .span {
-  color: var(--background-color);
+  color: var(#2e2f42);
 }
 .list {
   list-style: none;
@@ -38,7 +38,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--background-color);
+  color: var(#2e2f42);
 }
 .link {
   text-decoration: none;
@@ -59,7 +59,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--background-color);
+  color: var(#434455);
 }
 .link {
   text-decoration: none;
@@ -71,7 +71,7 @@ body {
   color: #404bbf;
 }
 .section {
-  background-color: var(--background-color);
+  background-color: var(#2e2f42);
 }
 .title-1 {
   font-size: 56px;
@@ -104,13 +104,13 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--background-color);
+  color: var(#2e2f42);
 }
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(#434455);
 }
 .title-2 {
   font-size: 36px;
@@ -118,7 +118,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--background-color);
+  color: var(#2e2f42);
 }
 .list {
   list-style: none;
@@ -132,7 +132,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--background-color);
+  color: var(#2e2f42);
 }
 .list {
   list-style: none;
@@ -145,16 +145,16 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--background-color);
+  color: var(#2e2f42);
 }
 .position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(#434455);
 }
 .footer {
-  background-color: var(--background-color);
+  background-color: var(#2e2f42);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -169,11 +169,11 @@ body {
   text-decoration: none;
 }
 .span {
-  color: var(--footer-text-color);
+  color: var(#f4f4fd);
 }
 .footer-text {
   line-height: 1.5;
-  color: var(--footer-text-color);
+  color: var(#f4f4fd);
   letter-spacing: 0.02em;
 }
 .dep-button {
@@ -183,7 +183,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-accent-color);
-  background-color: var(--footer-text-color);
+  background-color: var(#f4f4fd);
   cursor: pointer;
 }
 .dep-button:hover {
@@ -205,16 +205,16 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--background-color);
+  color: var(#2e2f42);
 }
 .department {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(#434455);
 }
 .footer {
-  background-color: var(--background-color);
+  background-color: var(#2e2f42);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -229,10 +229,10 @@ body {
   text-decoration: none;
 }
 .span {
-  color: var(--footer-text-color);
+  color: var(#f4f4fd);
 }
 .footer-text {
   line-height: 1.5;
-  color: var(--footer-text-color);
+  color: var(#f4f4fd);
   letter-spacing: 0.02em;
 }
