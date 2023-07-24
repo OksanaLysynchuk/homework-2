@@ -48,7 +48,10 @@ border-bottom: 1px solid #e7e9fc
   color: var(--primary-accent-color);
 height: 24px;
 margin-right: 76px;
-
+}
+.header-logo.header-span{
+  margin-right: 76px;
+  
 }
 .link {
   text-decoration: none;
