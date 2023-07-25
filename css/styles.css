@@ -168,8 +168,8 @@ max-width: 496px;
   padding: 120px 0;
 
 }
-.visually-hidden{
-
+.values-container-title{
+  visibility: hidden;
 }
 .values-list {
   display: flex;
@@ -320,6 +320,9 @@ margin-right: 156px;
   letter-spacing: 0.02em;
   margin-left: 156px;
   max-width: 264px
+}
+.main-section-title{
+  visibility: hidden;
 }
 .main-content{
   height: 1692px;
