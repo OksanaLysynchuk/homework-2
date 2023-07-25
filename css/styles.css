@@ -164,11 +164,13 @@ img {
 .values-section {
   padding: 120px 0;
 }
-
+.values-container-title{
+  visibility: hidden;
+}
 .values-list {
   display: flex;
   gap: 24px;
-  margin: 120px 156px 120px 156px;
+  /* margin: 120px 156px 120px 156px; */
 }
 .value-box {
   width: calc((100% - 72px) / 4);
@@ -207,7 +209,7 @@ img {
 .activity-box {
   display: inline-flex;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
 }
 .title {
   font-size: 36px;
@@ -257,13 +259,13 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  margin-right: 156px;
+  /* margin-right: 156px; */
 }
 .team-card {
   padding: 32px 0;
 }
 .team-image {
-  margin-bottom: 32px;
+ /* margin-bottom: 32px;*/
 }
 .name {
   font-weight: 500;
@@ -314,7 +316,9 @@ img {
   margin-left: 156px;
   max-width: 264px;
 }
-
+.main-section-title{
+  visibility: hidden;
+}
 .main-content {
   height: 1692px;
 }
@@ -450,15 +454,3 @@ img {
   margin-left: 156px;
   width: 264px;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  }
