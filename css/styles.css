@@ -17,6 +17,7 @@ body {
   background-color: var(--primary-white-color);
   width: 1440px;
 }
+
 img {
   display: block;
 }
@@ -117,6 +118,11 @@ img {
 .hero-image {
   width: 1440px;
 }
+.section-one{
+  width: 1440px;
+height: 600px;
+flex-shrink: 0;
+}
 .section {
   background-color: var(--background-color);
   width: 1440px;
@@ -125,6 +131,15 @@ img {
   padding-bottom: 188px;
 }
 .main-title {
+  width: 496px;
+  color: var(--white, #FFF);
+text-align: center;
+
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -151,6 +166,10 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+
+  display: inline-flex;
+align-items: flex-start;
+gap: 10px;
 }
 .button:hover {
   background-color: #404bbf;
@@ -163,6 +182,9 @@ img {
 }
 .values-section {
   padding: 120px 0;
+  width: 1128px;
+height: 104px;
+flex-shrink: 0;
 }
 .values-container-title{
   visibility: hidden;
@@ -170,10 +192,14 @@ img {
 .values-list {
   display: flex;
   gap: 24px;
-  /* margin: 120px 156px 120px 156px; */
+
 }
 .value-box {
   width: calc((100% - 72px) / 4);
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
 }
 .values {
   font-weight: 500;
@@ -184,6 +210,10 @@ img {
   display: flex;
   width: 264px;
   margin-bottom: 8px;
+
+font-style: normal;
+line-height: 24px;
+letter-spacing: 0.4px;
 }
 .text {
   font-size: 16px;
@@ -192,14 +222,28 @@ img {
   color: var(--text-color);
   width: 264px;
   margin-top: 8px;
+
+font-style: normal;
+font-weight: 400;
 }
 .our-activity {
   width: 1128px;
   padding-bottom: 120px;
+height: 412px;
+flex-shrink: 0;
 }
 .activity {
   margin-left: 403px;
   margin-bottom: 72px;
+
+text-align: center;
+
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
 }
 .activity-list {
   display: flex;
@@ -209,7 +253,9 @@ img {
 .activity-box {
   display: inline-flex;
   gap: 24px;
-  /* width: calc((100% - 48px) / 3); */
+
+flex-direction: column;
+align-items: flex-start;
 }
 .title {
   font-size: 36px;
@@ -228,6 +274,8 @@ img {
   width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
+height: 732px;
+flex-shrink: 0;
 }
 .team-title {
   font-size: 36px;
@@ -259,13 +307,25 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  /* margin-right: 156px; */
+
+  display: inline-flex;
+padding-bottom: 0px;
+flex-direction: column;
+justify-content: center;
 }
 .team-card {
   padding: 32px 0;
+  display: flex;
+width: 264px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
 }
 .team-image {
  /* margin-bottom: 32px;*/
+ width: 264px;
+height: 260px;
 }
 .name {
   font-weight: 500;
@@ -275,6 +335,10 @@ img {
   color: var(--background-color);
   margin-bottom: 8px;
   text-align: center;
+
+text-align: center;
+
+font-style: normal;
 }
 .position {
   font-size: 16px;
@@ -283,11 +347,17 @@ img {
   color: var(--text-color);
   margin-bottom: 32px;
   text-align: center;
+
+font-style: normal;
+font-weight: 400;
 }
 .footer {
   background-color: var(--background-color);
   height: 312px;
   padding: 100px 0;
+
+  width: 1440px;
+flex-shrink: 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -333,6 +403,8 @@ img {
   margin-left: 427px;
   justify-content: center;
   margin-bottom: 72px;
+
+align-items: flex-start;
 }
 .dep-button {
   font-family: "Roboto", sans-serif;
@@ -373,12 +445,24 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+
+
+
+
+padding-bottom: 0px;
+flex-direction: column;
+align-items: flex-start;
+
+flex-shrink: 0;
 }
 .row-one {
   
   margin-bottom: 48px;
   gap: 24px;
   width: ((100% - 48px) / 3);
+
+height: 420px;
+flex-shrink: 0;
 }
 .row-two {
   
