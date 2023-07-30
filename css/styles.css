@@ -430,6 +430,9 @@ ul {
   margin-bottom: 72px;
   align-items: flex-start;
 }
+.button-item{
+  margin-bottom: 72px;
+}
 .dep-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
