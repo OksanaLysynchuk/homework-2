@@ -15,13 +15,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--primary-white-color);
-  width: 1440px;
 }
 
 img {
   display: block;
 }
-h1 h2 h3 {
+h1, h2, h3 {
   margin: 0%;
 }
 p {
@@ -37,6 +36,7 @@ ul {
 .navigation {
   display: flex;
   margin: auto;
+  align-items: center;
 }
 .container {
   width: 1158px;
@@ -46,7 +46,6 @@ ul {
 .tabs {
   display: flex;
   align-items: center;
-  margin: auto;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -81,10 +80,9 @@ ul {
 }
 .menu {
   display: flex;
-  gap: 40px;
-  margin: auto;
 }
 .pages {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -108,7 +106,7 @@ ul {
 }
 .address {
   font-style: normal;
-  margin: auto;
+  margin-left: auto;
 }
 .list {
   list-style: none;
@@ -142,7 +140,7 @@ ul {
 }
 .section {
   background-color: var(--background-color);
-  width: 1440px;
+
   align-items: center;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -162,9 +160,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 48px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0%;
   max-width: 496px;
 }
 .button {
@@ -177,7 +173,8 @@ ul {
   color: #ffffff;
   cursor: pointer;
   padding: 16px 32px 16px 32px;
-  margin-left: 636px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -233,7 +230,7 @@ ul {
   color: var(--background-color);
   display: flex;
   width: 264px;
-  margin-bottom: 8px;
+  margin:0%;
 
   font-style: normal;
   line-height: 24px;
@@ -258,8 +255,7 @@ ul {
   flex-shrink: 0;
 }
 .activity {
-  margin-left: 403px;
-  margin-bottom: 72px;
+  margin:0%;
 
   text-align: center;
 
@@ -284,6 +280,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color);
+  margin: 0%;
 }
 .list {
   list-style: none;
@@ -306,7 +303,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color);
-  margin-bottom: 72px;
+  margin: 0;
 }
 .list {
   list-style: none;
@@ -350,7 +347,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--background-color);
   text-align: center;
-  margin-bottom: 8px;
+  margin:0%;
 }
 .position {
   font-size: 16px;
@@ -430,10 +427,8 @@ ul {
 }
 .list{
   list-style: none;
-  margin-bottom: 72px;
 }
 .button-item{
-  margin-bottom: 72px;
 }
 .dep-button {
   font-family: "Roboto", sans-serif;
@@ -447,7 +442,6 @@ ul {
   border-radius: 4px;
   border: 1px solid var(--dept-but-border-color);
   padding: 12px 24px;
-  margin-bottom: 72px;
 }
 .dep-button:hover {
   color: #ffffff;
@@ -463,7 +457,6 @@ ul {
   list-style: none;
   padding-left: 0%;
   margin-top: 0%;
-  margin-bottom: 72px;
 }
 .link {
   text-decoration: none;
@@ -491,7 +484,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--background-color);
-  margin-bottom: 8px;
+  margin:0%;
 }
 .department {
   font-size: 16px;
@@ -539,5 +532,6 @@ ul {
   line-height: 1.5;
   color: var(--footer-text-color);
   letter-spacing: 0.02em;
+
   max-width: 264px;
 }
