@@ -427,8 +427,11 @@ ul {
   align-items: center;
   justify-content: center;
   margin-bottom: 72px;
-  margin-bottom: 72px;
   align-items: flex-start;
+}
+.list{
+  list-style: none;
+  margin-bottom: 72px;
 }
 .button-item{
   margin-bottom: 72px;
@@ -478,17 +481,9 @@ ul {
 
   flex-shrink: 0;
 }
-.row-one {
+.rows {
   gap: 24px;
   width: ((100% - 48px) / 3);
-}
-.row-two {
-  margin-bottom: 48px;
-  gap: 24px;
-}
-.row-three {
-  margin-bottom: 120px;
-  gap: 24px;
 }
 .card-title {
   font-weight: 500;
