@@ -30,7 +30,6 @@ p {
 ul {
   padding-left: 0%;
   margin-top: 0%;
-  margin-bottom: 0%;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -205,7 +204,7 @@ ul {
   padding: 120px 0;
   flex-shrink: 0;
 }
-.values-container-title .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -400,7 +399,7 @@ ul {
 /*PORTFOLIO PAGE */
 
 /*MAIN SECTION*/
-.main-section-title .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
