@@ -40,7 +40,7 @@ ul {
 }
 .container {
   width: 1158px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0 15px;
 }
 .tabs {
@@ -230,8 +230,7 @@ ul {
   color: var(--background-color);
   display: flex;
   width: 264px;
-  margin:0%;
-
+margin-bottom: 8px;
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0.4px;
@@ -255,8 +254,8 @@ ul {
   flex-shrink: 0;
 }
 .activity {
-  margin:0%;
-
+  margin: 0%;
+  margin-bottom: 72px;
   text-align: center;
 
   font-size: 36px;
@@ -303,8 +302,10 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color);
-  margin: 0;
+  margin-bottom: 72px;
+
 }
+
 .list {
   list-style: none;
   padding-left: 0%;
@@ -347,7 +348,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--background-color);
   text-align: center;
-  margin:0%;
+  margin-bottom: 8px;
 }
 .position {
   font-size: 16px;
@@ -484,7 +485,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--background-color);
-  margin:0%;
+  margin-bottom: 8px;
 }
 .department {
   font-size: 16px;
