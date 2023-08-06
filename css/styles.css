@@ -360,6 +360,21 @@ margin-bottom: 8px;
   font-style: normal;
   font-weight: 400;
 }
+.social-icon-list{
+  display: flex;
+}
+.social-icon{
+  background-color: #404bbf;
+  border-radius: 50%;
+}
+/*customers section*/
+.customers-list{
+  display: flex;
+}
+.customer-icon{
+  width: 104px;
+  height: 56px;
+}
 
 /* FOOTER MAIN PAGE*/
 .footer {
@@ -394,7 +409,9 @@ margin-bottom: 8px;
 
   max-width: 264px;
 }
-
+.social-media{
+  color: var(--white, #FFF);
+}
 /*PORTFOLIO PAGE */
 
 /*MAIN SECTION*/
