@@ -160,7 +160,9 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 0%;
+  margin-right: auto;
+  margin-bottom: 48px;
+  margin-left: auto;
   max-width: 496px;
 }
 .button {
