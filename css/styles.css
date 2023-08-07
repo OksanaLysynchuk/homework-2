@@ -554,3 +554,11 @@ margin-bottom: 8px;
 
   max-width: 264px;
 }
+
+.bg{
+  width: 1440px;
+height: 600px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 0px -167.766px / 100% 139.922% no-repeat;
+  background-image: url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1692576000&Signature=KO~Vbp0Gu~cNDdcig1kHmiqoU-xMxCTiczyV98t14TQgL7-yqIeRRyT5LsxCfV42WPtFpZUB6EcuXq9CWi2p4w-6XYavwct5BkPk-OW-5i55vmi9C~jUeWb8M4fpSJGXJ46r3XZgM6zyWdRd59nb0w5SJPixrhzKXYv2RPXnv0ndSNlnvMHrcK4Q8Pz3uFQI-TfJDbKnri4HBDBAkpkiA6EIRe5oPJ5ZyRAflUr6r~P2i78L-OTFbtsNx67urwW6B0HpCT2XQ-MRcyiV93sQUJ7muMa2Fa1MDYE5VYODLRd0OcW0vw7V7qgG6DIdcHi7BCwGJl2BVAEozh-WuIm2Bg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
