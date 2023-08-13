@@ -668,12 +668,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dep-but-link:hover{
+  transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 
 
 
 .dep-but-link:focus{
+  transform: translateY(0%);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -822,21 +824,15 @@ flex-shrink: 0;
 .modal-window-button:hover{
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-window-button:focus{
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .close-modal{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.close-modal:hover {
-  fill: #ffffff;
-}
-
-.close-modal:focus{
-  fill: #ffffff;
 }
