@@ -542,6 +542,11 @@ margin-bottom: 8px;
 margin-right: 120px
 }
 
+.sm-list-footer{
+
+}
+
+
 
 .footer-socials{
   font-weight: 500;
@@ -743,10 +748,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(0%);
 }
 
-.dep-but-link:hover{
+.dep-but-link:hover .overlay{
   transform: translateY(0%);
 }
-.dep-but-link:focus{
+.dep-but-link:focus .overlay{
   transform: translateY(0%);
 }
 
