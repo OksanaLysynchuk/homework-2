@@ -415,6 +415,7 @@ margin-bottom: 8px;
   fill: var(--footer-text-color);
   width: 40px;
   height: 40px;
+  
 }
 
 .sm-icon-link{
@@ -550,7 +551,7 @@ margin-bottom: 8px;
   margin-bottom: 16px;
 }
 
-.social-icon-list{
+.social-icon-list-footer{
   display: flex;
   gap: 16px;
 }
@@ -568,6 +569,7 @@ margin-bottom: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-link:hover, .socials-link:focus{
@@ -613,6 +615,9 @@ margin-bottom: 8px;
 .list{
   list-style: none;
 }
+.button-item{
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .button-item:hover, .button-item:focus{
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 transition-duration: 250ms;
@@ -630,6 +635,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   border: 1px solid var(--dept-but-border-color);
   padding: 12px 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .dep-button:hover {
   color: #ffffff;
@@ -661,8 +667,36 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 
+.department:hover{
+  transform: translateY(0%);
+}
+
+.department:focus{
+  transform: translateY(0%);
+}
+
 .dep-but-link:focus{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.card-img{
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*CARDS*/
