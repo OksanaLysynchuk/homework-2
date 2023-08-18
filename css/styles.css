@@ -921,7 +921,7 @@ flex-shrink: 0;
   display: inline-block;
 }
 
-.modail-form-title{
+.modal-form-title{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -1023,11 +1023,12 @@ flex-shrink: 0;
   fill: transparent;  
 }
 
-.checkbox:checked + .label-span{
+
+
+.checkbox:checked + .policy-label .label-span{
   background-color: var(--secondary-accent-color);
   border: none;
   fill: var(--footer-text-color);
-
 }
 
 .policy-link{
