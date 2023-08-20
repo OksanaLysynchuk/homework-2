@@ -1,0 +1,15 @@
+@media (min-width: 428px){
+ . {
+  
+} 
+}
+@media (min-width: 768px){
+  . {
+   
+  }
+}
+@media (min-width: 1158px){
+  . {
+    
+  }
+  }
