@@ -422,23 +422,7 @@
       </div>
     </footer>
 
-    <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
-    </div>
+    
 
     <div data-modal="" class="modal-window is-hidden">      
       <div class="modal-window-item">
@@ -501,8 +485,10 @@
     
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
+        
         <svg
-          fill="currentColor"
+        class="mobile-menu-close"
+          fill="modal-window-button"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -517,12 +503,56 @@
       </button>
 
       <ul class="list pages-list mobile-menu-pages">
-        <li><a href="./index.html" class="pages link current">Studio</a></li>
-        <li>
+        <li class="mobile-menu-list-item"><a href="./index.html" class="pages link current">Studio</a></li>
+        <li class="mobile-menu-list-item">
           <a href="./portfolio.html" class="pages link">Portfolio</a>
         </li>
-        <li><a href="" class="pages link">Contacts</a></li>
+        <li class="mobile-menu-list-item"><a href="" class="pages link">Contacts</a></li>
+        
       </ul>
+      <address class="address ">
+          <ul class="list address-list mobile-menu-address">
+            <li>
+              <a href="tel:+110001111111" class="contacts link mobile-menu-phone"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="contacts link"
+                >info@devstudio.com</a
+              >
+            </li>
+            
+          </ul>
+        </address>
+        <ul class="social-icon-list mobile-menu-socials">
+          <li class="list sm-icon">
+            <a href="/icons/instagram-2.svg" class="sm-icon-link">
+            <svg class="social-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-instagram-2"></use>
+          </svg>
+        </a>
+        </li>
+          <li class="list sm-icon">
+            <a href="/icons/twitter-1.svg" class="sm-icon-link">
+            <svg class="social-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-twitter-1"></use>
+          </svg>
+            </a>
+        </li>
+          <li class="list sm-icon">
+            <a href="/icons/facebook-1.svg" class="sm-icon-link">
+            <svg class="social-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-facebook-1"></use>
+          </svg></a>
+        </li>
+          <li class="list sm-icon">
+            <a href="/icons/linkedin-1.svg" class="sm-icon-link">
+            <svg class="social-icon" width="16" height="16">
+            <use href="./images/icons.svg#icon-linkedin-1"></use>
+          </svg></a>
+        </li>
+        </ul>
     </div>
     
     <script
